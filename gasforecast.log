@@ -1,0 +1,9 @@
+[2022-03-24 09:44:47,147 GasDetect.py line:422] INFO: get_normalized_data done!
+[2022-03-24 09:44:53,047 GasDetect.py line:478] INFO: Start training... Epochs: 50
+[2022-03-24 09:44:53,935 GasDetect.py line:496] INFO: Epoch: 10/50, Loss: 0.1407
+[2022-03-24 09:44:54,196 GasDetect.py line:496] INFO: Epoch: 20/50, Loss: 0.0842
+[2022-03-24 09:44:54,443 GasDetect.py line:496] INFO: Epoch: 30/50, Loss: 0.0395
+[2022-03-24 09:44:54,657 GasDetect.py line:496] INFO: Epoch: 40/50, Loss: 0.0302
+[2022-03-24 09:44:54,828 GasDetect.py line:502] INFO: train_model done!
+[2022-03-24 09:44:55,620 GasDetect.py line:545] INFO: detect done!
+[2022-03-24 09:44:55,638 GasDetect.py line:587] INFO: generate_result done!

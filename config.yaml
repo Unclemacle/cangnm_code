@@ -1,0 +1,69 @@
+
+# 数据库参数
+SQLSERVER:
+  HOST: '192.168.1.188'
+  PORT: 1433
+  USER: dbtest
+  PASSWORD: dbsi1122
+
+############################################################
+
+# 数据根目录
+DATABASE: '/data/cangnm_data'
+
+# 模型目录
+MODEL_DIR: '/home/hby/Net'
+
+# 图片目录
+IMG_DIR: '/home/hby/Plot'
+
+############################################################
+############################################################
+# 网络训练参数
+
+MODE_SET:
+  day:
+    SEQ_LEN: 7
+    INPUT_SIZE: 24
+    OUTPUT_SIZE: 24
+    PRE_DAYS: 3
+    EPOCH: 50
+  month:
+    SEQ_LEN: 6
+    INPUT_SIZE: 30
+    OUTPUT_SIZE: 30
+    PRE_DAYS: 2
+    EPOCH: 100
+  season:
+    SEQ_LEN: 4
+    INPUT_SIZE: 12
+    OUTPUT_SIZE: 12
+    PRE_DAYS: 1
+    EPOCH: 150
+  year:
+    SEQ_LEN: 2
+    INPUT_SIZE: 12
+    OUTPUT_SIZE: 12
+    PRE_DAYS: 1
+    EPOCH: 200
+
+############################################################
+# 网络训练参数
+
+# 批大小
+BATCH_SIZE: 200
+
+# 隐藏层
+HIDDEN_SIZE: 128
+
+# 学习率
+LEARNING_RATE: 0.001
+
+############################################################
+# 可选
+
+# 是否使用历史数据
+USE_PRE: false
+
+# 是否使用 attention
+USE_ATTN: false

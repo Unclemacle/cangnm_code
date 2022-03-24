@@ -1,0 +1,12 @@
+chinesecalendar==1.6.0
+hdfs==2.6.0
+joblib==1.1.0
+matplotlib==3.4.2
+more_itertools==8.12.0
+numpy==1.21.2
+pandas==1.3.3
+plotly==5.4.0
+pyspark==3.2.1
+PyYAML==6.0
+scikit_learn==1.0.2
+torch==1.9.1
